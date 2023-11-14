@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/Merriweather-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-section-membership: #55acee;
+    --color-fb: black;
+    --color-ig: rgb(255, 153, 0);
+    --color-tw: aqua;
+    --color-yt: red;
+    --color-h2: grey;
+}
+
+html {
+    font-size: 12px;
+    text-align: center;
+}
+
+.h__h1 {
+    padding: 10px 0 10px;
+}
+
+.h__h2 {
+    color: var(--color-h2);
+    padding: 5px 0 5px;
+    font-size: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.a__fb {
+    color:var(--color-fb);
+}
+.a__ig {
+    color:var(--color-ig);
+}
+.a__tw {
+    color: var(--color-tw);
+}
+.a__yt {
+    color: var(--color-yt);
+}
+
+img:hover {
+    border: 2px solid grey;
+}
+
+/*  *  Header  *  */
+
+header {
+    height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.ul__nav {
+    display:flex;
+    justify-content: flex-end;
+    gap: 10px;;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.ul__nav il {
+}
