@@ -146,6 +146,8 @@ header {
     width: 250px;
 }
 
+/* *Section 4: Illustration */
+
 .section__illustrations {
     margin: 0 auto;
     margin-top: 20px;
@@ -158,10 +160,32 @@ header {
 }
 
 .img__s_illus {
+    min-width: 200px;
     width: 25vw;
 }
 .section__illustrations div {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+ /* * Section 5: Examples */
+
+.section__examples {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.section__examples p{
+    margin-bottom: 20px;
+}
+
+.section__examples div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px
+}
+.img__wrap {
+    min-width: 324px;
+    width: 45vw;
 }
