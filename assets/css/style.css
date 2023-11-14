@@ -189,3 +189,30 @@ header {
     min-width: 324px;
     width: 45vw;
 }
+
+/* * Section 6: Downloads */
+
+.section__download {
+    margin: 0 auto;
+    width: 300px;
+}
+
+/* * Section 7: Membership */
+
+.section__membership {
+    background-color: var(--color-section-membership);
+    margin: 0 auto;
+    /* * Du wirst zusammengedrückt. */
+    padding: 40px;
+    width: 200px;
+
+    /* *Alles wird weggedrückt. */
+    margin-top:50px;
+    margin-bottom: 50px;
+
+}
+
+.section__membership ul {
+    list-style: none;
+    padding-bottom: 20px;
+}
