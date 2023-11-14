@@ -60,7 +60,7 @@ a {
 }
 
 img:hover {
-    border: 2px solid grey;
+    box-shadow: 2px 0 5px grey;
 }
 
 /*  *  Header  *  */
