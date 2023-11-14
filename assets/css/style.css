@@ -13,7 +13,7 @@
     --color-section-membership: #55acee;
     --color-fb: black;
     --color-ig: rgb(255, 153, 0);
-    --color-tw: aqua;
+    --color-tw: rgb(4, 175, 175);
     --color-yt: red;
     --color-h2: grey;
 }
@@ -38,20 +38,23 @@ p {
     font-size: 1rem;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
 .a__fb {
-    color:var(--color-fb);
+    color: var(--color-fb);
 }
+
 .a__ig {
-    color:var(--color-ig);
+    color: var(--color-ig);
 }
+
 .a__tw {
     color: var(--color-tw);
 }
+
 .a__yt {
     color: var(--color-yt);
 }
@@ -67,9 +70,11 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin: 10px;
 }
+
 .ul__nav {
-    display:flex;
+    display: flex;
     justify-content: flex-end;
     gap: 10px;
     list-style: none;
@@ -80,7 +85,7 @@ header {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    /* margin: 0 10vw 0 10vw; */
+    margin: 0 00vw 0 10vw;
 }
 
 .section__gif div {
@@ -88,17 +93,19 @@ header {
 }
 
 .section__gif img {
-    width: 40vw;
-    
+    height: 40vh;
+
 }
 
 .section__gif div p {
     padding: 20px;
 }
-.a__download{
+
+.a__download {
     background-color: black;
     color: white;
 }
+
 .a__subscribe {
     background-color: white;
     color: black;
@@ -115,16 +122,18 @@ header {
 .section__real_beauty {
     display: flex;
     align-items: flex-start;
-    justify-content:flex-start;
+    justify-content: flex-start;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 10vw;
 }
+
 .section__real_beauty img {
     height: 300px;
 }
+
 .section__real_beauty div {
     width: 30vw;
-    padding-left: 50px;
+    margin-left: 10vw;
 }
 
 /* * Section 3: Expressiveness */
@@ -132,9 +141,10 @@ header {
 .section__expressiveness {
     display: flex;
     align-items: flex-start;
-    justify-content:space-around;
+    justify-content: flex-start;
     margin: 0 auto;
     margin-top: 20px;
+    margin-left: 10vw;
     width: 100vw;
 }
 
@@ -144,6 +154,7 @@ header {
 
 .section__expressiveness div {
     width: 250px;
+    margin-right: 20vw;
 }
 
 /* *Section 4: Illustration */
@@ -163,19 +174,21 @@ header {
     min-width: 200px;
     width: 25vw;
 }
+
 .section__illustrations div {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
- /* * Section 5: Examples */
+
+/* * Section 5: Examples */
 
 .section__examples {
     margin-top: 20px;
     margin-bottom: 50px;
 }
 
-.section__examples p{
+.section__examples p {
     margin-bottom: 20px;
 }
 
@@ -185,6 +198,7 @@ header {
     flex-wrap: wrap;
     gap: 20px
 }
+
 .img__wrap {
     min-width: 324px;
     width: 45vw;
@@ -207,7 +221,7 @@ header {
     width: 200px;
 
     /* *Alles wird weggedrückt. */
-    margin-top:50px;
+    margin-top: 50px;
     margin-bottom: 50px;
 
 }
@@ -215,6 +229,17 @@ header {
 .section__membership ul {
     list-style: none;
     padding-bottom: 20px;
+}
+
+.section__membership p {
+    font-size: 3em;
+}
+
+.a__member {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 /* * Footer */
@@ -229,4 +254,3 @@ footer ul {
 footer p {
     font-size: 1em;
 }
-
