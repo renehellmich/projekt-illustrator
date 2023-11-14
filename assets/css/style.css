@@ -78,18 +78,17 @@ header {
 
 .section__gif {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     /* margin: 0 10vw 0 10vw; */
 }
 
 .section__gif div {
     width: 30vw;
-    padding-left: 100px;
 }
 
 .section__gif img {
-    height: 80vh;
+    width: 40vw;
     
 }
 
@@ -109,4 +108,60 @@ header {
     border: 2px solid;
     border-radius: 5px;
     padding: 10px;
+}
+
+/* * Section 2: Real Beauty */
+
+.section__real_beauty {
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.section__real_beauty img {
+    height: 300px;
+}
+.section__real_beauty div {
+    width: 30vw;
+    padding-left: 50px;
+}
+
+/* * Section 3: Expressiveness */
+
+.section__expressiveness {
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-around;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100vw;
+}
+
+.section__expressiveness img {
+    height: 50vh;
+}
+
+.section__expressiveness div {
+    width: 250px;
+}
+
+.section__illustrations {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100vw;
+}
+
+.section__illustrations p {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.img__s_illus {
+    width: 25vw;
+}
+.section__illustrations div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
